@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { BsLinkedin, BsFacebook } from "react-icons/bs";
+import { BsLinkedin, BsFacebook, BsWhatsapp } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
+
 export default function Footer() {
   return (
     <FooterContainer>
@@ -22,13 +23,20 @@ export default function Footer() {
       </ul>
       <ul className="social__links">
         <li>
-          <BsFacebook />
+          <BsFacebook onClick={() =>
+            window.open("https://www.facebook.com/profile.php?id=100008983328843")} />
         </li>
         <li>
-          <AiFillInstagram />
+          <AiFillInstagram onClick={() =>
+            window.open("https://www.facebook.com/profile.php?id=100008983328843")} />
         </li>
         <li>
-          <BsLinkedin />
+         <BsWhatsapp onClick={() =>
+            window.open("https://wa.me/917338981751")} />
+        </li>
+        <li>
+          <BsLinkedin onClick={() =>
+            window.open("https://www.facebook.com/profile.php?id=100008983328843")} />
         </li>
       </ul>
     </FooterContainer>

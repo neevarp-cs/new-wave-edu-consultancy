@@ -51,17 +51,14 @@ export default function Recommend() {
   ];
 
   const packages = [
-    "The Weekend Break",
-    "The Package Holiday",
-    "The Group Tour",
-    "Long Term Slow Travel",
+    
   ];
 
   const [active, setActive] = useState(1);
   return (
     <Section id="recommend">
       <div className="title">
-        <h2>Countries We Recruit</h2>
+        <h2>Industries We Serves</h2>
       </div>
       <div className="packages">
         <ul>
