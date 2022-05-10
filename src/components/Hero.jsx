@@ -1,12 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 import homeImage from "../assets/hero.png";
+//import hii from "../assets/simp.png";
 export default function Hero() {
   return (
     <Section id="hero">
       <div className="background">
         <img src={homeImage} alt="" />
       </div>
+      
       <div className="content">
         <div className="title">
           <h1>TRAVEL TO EARN</h1>
